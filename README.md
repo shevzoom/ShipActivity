@@ -1,5 +1,5 @@
 # ShipActivity
-Ship App with ActivityKit, Live Activity iOS 16
+Ship App with ActivityKit, Live Activity iOS 16 + SUI
 
 - doc. [info](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities)
 
