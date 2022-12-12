@@ -7,7 +7,6 @@
 
 import Foundation
 import ActivityKit
-import Combine
 
 protocol ShipActivityManagerProtocol {
     func endLiveActivity()
