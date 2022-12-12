@@ -5,9 +5,7 @@
 //  Created by Глеб on 10.12.2022.
 //
 
-import SwiftUI
-
-public class ShipStatusViewModel: ObservableObject {
+public struct ShipStatusViewModel {
 
     let orderStatus: OrderStatus
     var statusSections: [ShipStatusModel]
