@@ -1,6 +1,8 @@
 # ShipActivity
 Ship App with ActivityKit, Live Activity iOS 16
 
-![Simulator Screen Shot - iPhone 14 Pro - 2022-12-12 at 12 03 57](https://user-images.githubusercontent.com/64494962/207006886-4ee2b8a8-2988-4df2-baf9-912674de098a.png)
-![Simulator Screen Shot - iPhone 14 Pro - 2022-12-12 at 12 04 06](https://user-images.githubusercontent.com/64494962/207006922-f1d664df-76df-43fb-9661-55368453efd6.png)
+- doc. [update via push notification centre]([https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities](https://developer.apple.com/documentation/activitykit/displaying-live-data-with-live-activities)
 
+- doc. [update via push notification centre]([https://developer.apple.com/documentation/activitykit/update-and-end-your-live-activity-with-remote-push-notifications](https://developer.apple.com/documentation/activitykit/update-and-end-your-live-activity-with-remote-push-notifications))
+
+<img width="863" alt="Снимок экрана 2022-12-12 в 12 18 20" src="https://user-images.githubusercontent.com/64494962/207007802-765afbf2-e711-4126-bd67-5ec690828b77.png">
