@@ -7,18 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F73131A6293FD222005F46EC /* ShipStatusCirlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73131A5293FD222005F46EC /* ShipStatusCirlesView.swift */; };
+		F73A259A294287C7000394B0 /* HorizontalLineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A2599294287C7000394B0 /* HorizontalLineShape.swift */; };
+		F73A259D294396C5000394B0 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73A259B29438CEB000394B0 /* View+.swift */; };
+		F75684BB293E247D000CD117 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75684BA293E247D000CD117 /* ActivityManager.swift */; };
+		F75684BD293E24A3000CD117 /* ActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75684BA293E247D000CD117 /* ActivityManager.swift */; };
+		F7D4BB4E2943DB6E000EEC81 /* ShipStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4BB4D2943DB6E000EEC81 /* ShipStatusViewModel.swift */; };
+		F7D4BB502943DC7D000EEC81 /* ShipStatusBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4BB4F2943DC7D000EEC81 /* ShipStatusBuilder.swift */; };
+		F7D4BB542943ED7D000EEC81 /* ShipActivityEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4BB532943ED7D000EEC81 /* ShipActivityEntryView.swift */; };
+		F7D4BB582943EE13000EEC81 /* ShipStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D4BB572943EE13000EEC81 /* ShipStatusModel.swift */; };
 		F7D663202936976100B4CE13 /* ShipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6631F2936976100B4CE13 /* ShipApp.swift */; };
 		F7D663222936976100B4CE13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D663212936976100B4CE13 /* ContentView.swift */; };
 		F7D663242936976300B4CE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D663232936976300B4CE13 /* Assets.xcassets */; };
 		F7D663272936976300B4CE13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D663262936976300B4CE13 /* Preview Assets.xcassets */; };
+		F7D663342936978200B4CE13 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663332936978100B4CE13 /* WidgetKit.framework */; };
+		F7D663362936978200B4CE13 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7D663352936978200B4CE13 /* SwiftUI.framework */; };
+		F7D663392936978200B4CE13 /* ShipActivityBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D663382936978200B4CE13 /* ShipActivityBundle.swift */; };
+		F7D6633D2936978300B4CE13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D6633C2936978300B4CE13 /* Assets.xcassets */; };
+		F7D663412936978300B4CE13 /* ShipActivityExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F7D663312936978100B4CE13 /* ShipActivityExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7D6634829369F0D00B4CE13 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6634729369F0D00B4CE13 /* Attributes.swift */; };
+		F7D6634929369F1F00B4CE13 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D6634729369F0D00B4CE13 /* Attributes.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F7D6633F2936978300B4CE13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7D663142936976100B4CE13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7D663302936978100B4CE13;
+			remoteInfo = ShipActivityExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7D663452936978300B4CE13 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7D663412936978300B4CE13 /* ShipActivityExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		F73131A5293FD222005F46EC /* ShipStatusCirlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipStatusCirlesView.swift; sourceTree = "<group>"; };
+		F73A2599294287C7000394B0 /* HorizontalLineShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLineShape.swift; sourceTree = "<group>"; };
+		F73A259B29438CEB000394B0 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
+		F75684BA293E247D000CD117 /* ActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityManager.swift; sourceTree = "<group>"; };
+		F7D4BB4D2943DB6E000EEC81 /* ShipStatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipStatusViewModel.swift; sourceTree = "<group>"; };
+		F7D4BB4F2943DC7D000EEC81 /* ShipStatusBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipStatusBuilder.swift; sourceTree = "<group>"; };
+		F7D4BB532943ED7D000EEC81 /* ShipActivityEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipActivityEntryView.swift; sourceTree = "<group>"; };
+		F7D4BB572943EE13000EEC81 /* ShipStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipStatusModel.swift; sourceTree = "<group>"; };
 		F7D6631C2936976100B4CE13 /* Ship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D6631F2936976100B4CE13 /* ShipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipApp.swift; sourceTree = "<group>"; };
 		F7D663212936976100B4CE13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7D663232936976300B4CE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7D663262936976300B4CE13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7D663312936978100B4CE13 /* ShipActivityExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShipActivityExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D663332936978100B4CE13 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F7D663352936978200B4CE13 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F7D663382936978200B4CE13 /* ShipActivityBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipActivityBundle.swift; sourceTree = "<group>"; };
+		F7D6633C2936978300B4CE13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D6633E2936978300B4CE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D6634729369F0D00B4CE13 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +84,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D6632E2936978100B4CE13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D663362936978200B4CE13 /* SwiftUI.framework in Frameworks */,
+				F7D663342936978200B4CE13 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F75684BC293E2496000CD117 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				F75684BA293E247D000CD117 /* ActivityManager.swift */,
+				F7D6634729369F0D00B4CE13 /* Attributes.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		F7D4BB552943EDD6000EEC81 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F73131A5293FD222005F46EC /* ShipStatusCirlesView.swift */,
+				F73A259B29438CEB000394B0 /* View+.swift */,
+				F7D4BB532943ED7D000EEC81 /* ShipActivityEntryView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7D4BB562943EDF1000EEC81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7D4BB4D2943DB6E000EEC81 /* ShipStatusViewModel.swift */,
+				F7D4BB572943EE13000EEC81 /* ShipStatusModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		F7D663132936976100B4CE13 = {
 			isa = PBXGroup;
 			children = (
 				F7D6631E2936976100B4CE13 /* Ship */,
+				F7D663372936978200B4CE13 /* ShipActivity */,
+				F7D663322936978100B4CE13 /* Frameworks */,
 				F7D6631D2936976100B4CE13 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F7D6631C2936976100B4CE13 /* Ship.app */,
+				F7D663312936978100B4CE13 /* ShipActivityExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +150,7 @@
 				F7D663212936976100B4CE13 /* ContentView.swift */,
 				F7D663232936976300B4CE13 /* Assets.xcassets */,
 				F7D663252936976300B4CE13 /* Preview Content */,
+				F75684BC293E2496000CD117 /* Activity */,
 			);
 			path = Ship;
 			sourceTree = "<group>";
@@ -67,6 +163,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F7D663322936978100B4CE13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D663332936978100B4CE13 /* WidgetKit.framework */,
+				F7D663352936978200B4CE13 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D663372936978200B4CE13 /* ShipActivity */ = {
+			isa = PBXGroup;
+			children = (
+				F7D663382936978200B4CE13 /* ShipActivityBundle.swift */,
+				F73A2599294287C7000394B0 /* HorizontalLineShape.swift */,
+				F7D6633C2936978300B4CE13 /* Assets.xcassets */,
+				F7D6633E2936978300B4CE13 /* Info.plist */,
+				F7D4BB552943EDD6000EEC81 /* Views */,
+				F7D4BB562943EDF1000EEC81 /* Models */,
+				F7D4BB4F2943DC7D000EEC81 /* ShipStatusBuilder.swift */,
+			);
+			path = ShipActivity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +196,34 @@
 				F7D663182936976100B4CE13 /* Sources */,
 				F7D663192936976100B4CE13 /* Frameworks */,
 				F7D6631A2936976100B4CE13 /* Resources */,
+				F7D663452936978300B4CE13 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7D663402936978300B4CE13 /* PBXTargetDependency */,
 			);
 			name = Ship;
 			productName = Ship;
 			productReference = F7D6631C2936976100B4CE13 /* Ship.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F7D663302936978100B4CE13 /* ShipActivityExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D663422936978300B4CE13 /* Build configuration list for PBXNativeTarget "ShipActivityExtension" */;
+			buildPhases = (
+				F7D6632D2936978100B4CE13 /* Sources */,
+				F7D6632E2936978100B4CE13 /* Frameworks */,
+				F7D6632F2936978100B4CE13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShipActivityExtension;
+			productName = ShipActivityExtension;
+			productReference = F7D663312936978100B4CE13 /* ShipActivityExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +236,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					F7D6631B2936976100B4CE13 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F7D663302936978100B4CE13 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -116,6 +257,7 @@
 			projectRoot = "";
 			targets = (
 				F7D6631B2936976100B4CE13 /* Ship */,
+				F7D663302936978100B4CE13 /* ShipActivityExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +272,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D6632F2936978100B4CE13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D6633D2936978300B4CE13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +287,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75684BB293E247D000CD117 /* ActivityManager.swift in Sources */,
+				F7D6634829369F0D00B4CE13 /* Attributes.swift in Sources */,
 				F7D663222936976100B4CE13 /* ContentView.swift in Sources */,
 				F7D663202936976100B4CE13 /* ShipApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7D6632D2936978100B4CE13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D6634929369F1F00B4CE13 /* Attributes.swift in Sources */,
+				F7D4BB4E2943DB6E000EEC81 /* ShipStatusViewModel.swift in Sources */,
+				F73131A6293FD222005F46EC /* ShipStatusCirlesView.swift in Sources */,
+				F7D663392936978200B4CE13 /* ShipActivityBundle.swift in Sources */,
+				F73A259A294287C7000394B0 /* HorizontalLineShape.swift in Sources */,
+				F73A259D294396C5000394B0 /* View+.swift in Sources */,
+				F7D4BB542943ED7D000EEC81 /* ShipActivityEntryView.swift in Sources */,
+				F75684BD293E24A3000CD117 /* ActivityManager.swift in Sources */,
+				F7D4BB502943DC7D000EEC81 /* ShipStatusBuilder.swift in Sources */,
+				F7D4BB582943EE13000EEC81 /* ShipStatusModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7D663402936978300B4CE13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7D663302936978100B4CE13 /* ShipActivityExtension */;
+			targetProxy = F7D6633F2936978300B4CE13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F7D663282936976300B4CE13 /* Debug */ = {
@@ -262,6 +439,7 @@
 		F7D6632B2936976300B4CE13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -270,6 +448,7 @@
 				DEVELOPMENT_TEAM = V8A28FT67G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -291,6 +470,7 @@
 		F7D6632C2936976300B4CE13 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +479,7 @@
 				DEVELOPMENT_TEAM = V8A28FT67G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,6 +492,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = gleb.Ship;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7D663432936978300B4CE13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8A28FT67G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShipActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShipActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gleb.Ship.ShipActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D663442936978300B4CE13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V8A28FT67G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShipActivity/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShipActivity;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gleb.Ship.ShipActivity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -334,6 +569,15 @@
 			buildConfigurations = (
 				F7D6632B2936976300B4CE13 /* Debug */,
 				F7D6632C2936976300B4CE13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D663422936978300B4CE13 /* Build configuration list for PBXNativeTarget "ShipActivityExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D663432936978300B4CE13 /* Debug */,
+				F7D663442936978300B4CE13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
